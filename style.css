@@ -31,3 +31,15 @@ h1 {
   background: yellow;
   border-radius: 10px;
 }
+tr:nth-child(even) {
+  background-color: white;
+}
+tr:nth-child(odd) {
+  background-color: gray;
+}
+.Bad {
+  color: red;
+}
+.Good {
+  color: green;
+}
