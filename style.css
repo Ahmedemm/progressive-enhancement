@@ -2,13 +2,32 @@ body {
   max-width: 95%;
   margin: auto;
   background-color: #f0f1ff;
+  background-image: url(Photos/cool-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom, right;
 }
 blockquote {
   margin-left: 35%;
+  margin-right: 20%;
   font-size: 160%;
   background: #d1d1d1;
   padding: 10px;
   border-left: 3px firebrick;
   margin-top: 80px;
   margin-bottom: 80px;
+  border-radius: 10px;
+}
+.farmer {
+  border-left: 3px solid blue;
+}
+.Villagers {
+  border-left: 3px solid red;
+}
+h1 {
+  text-align: center;
+  margin-left: 38%;
+  margin-right: 33%;
+  background: yellow;
+  border-radius: 10px;
 }
